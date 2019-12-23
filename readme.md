@@ -1,3 +1,9 @@
+# Laravel Utilities
+
+[![Latest Stable Version](https://poser.pugx.org/mahmud/laravel-utilities/v/stable)](https://packagist.org/packages/mahmud/laravel-utilities)
+[![License](https://poser.pugx.org/mahmud/laravel-utilities/license)](https://packagist.org/packages/mahmud/laravel-utilities)
+[![composer.lock](https://poser.pugx.org/mahmud/laravel-utilities/composerlock)](https://packagist.org/packages/mahmud/laravel-utilities)
+
 ## Installation
 
 Via Composer
