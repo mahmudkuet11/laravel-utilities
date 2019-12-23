@@ -2,24 +2,13 @@
 
 namespace Mahmud\LaravelUtilities;
 
+use Illuminate\Support\Facades\Validator;
 use Illuminate\Support\ServiceProvider;
+use Mahmud\LaravelUtilities\Rules\Ascii;
 
 class LaravelUtilitiesServiceProvider extends ServiceProvider {
-    /**
-     * Perform post-registration booting of services.
-     *
-     * @return void
-     */
+    
     public function boot() {
-    
-    }
-    
-    /**
-     * Register any package services.
-     *
-     * @return void
-     */
-    public function register() {
-    
+        Validator::extend('ascii', Ascii::class . '@passes');
     }
 }

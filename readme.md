@@ -8,6 +8,13 @@ $ composer require mahmud/laravel-utilities
 
 ## Usage
 
+```php
+use Illuminate\Support\Facades\Validator;
+
+$validator = Validator::make(['foo' => 'বার'], ['foo' => new Ascii()]);
+$validator->fails() // true
+```
+
 ## Change log
 
 Please see the [changelog](changelog.md) for more information on what has changed recently.
