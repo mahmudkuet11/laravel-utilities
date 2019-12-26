@@ -14,11 +14,23 @@ $ composer require mahmud/laravel-utilities
 
 ## Usage
 
+### ASCII validation rule
+
 ```php
 use Illuminate\Support\Facades\Validator;
 
 $validator = Validator::make(['foo' => 'বার'], ['foo' => new Ascii()]);
 $validator->fails() // true
+```
+
+### `number` function
+
+```php
+number($number, $decimal = 2)
+
+echo number(7.236)  // 7.24
+echo number(3.14159, 4) // 3.1416
+echo (3.14159, 0) // 3.0
 ```
 
 ## Change log
