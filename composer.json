@@ -24,7 +24,10 @@
     "autoload": {
         "psr-4": {
             "Mahmud\\LaravelUtilities\\": "src/"
-        }
+        },
+        "files": [
+            "src/helpers.php"
+        ]
     },
     "autoload-dev": {
         "psr-4": {
