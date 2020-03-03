@@ -23,6 +23,17 @@ $validator = Validator::make(['foo' => 'বার'], ['foo' => new Ascii()]);
 $validator->fails() // true
 ```
 
+### Hash Check validation rule
+
+```php
+use Illuminate\Support\Facades\Validator;
+
+$hashedPassword = bcrypt('123456');
+
+$validator = Validator::make(['password' => '123456'], ['password' => 'hash_check:' . $hashedPassword]);
+$validator->passes() // true
+```
+
 ### `number` function
 
 ```php
