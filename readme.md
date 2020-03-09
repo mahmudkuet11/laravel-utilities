@@ -17,7 +17,7 @@
 Via Composer
 
 ``` bash
-$ composer require mahmud/laravel-utilities
+$ composer require mahmud/laravel-utilities ^2.0.0
 ```
 
 ## Usage
