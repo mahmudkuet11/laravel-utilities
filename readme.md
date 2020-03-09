@@ -4,12 +4,19 @@
 [![License](https://poser.pugx.org/mahmud/laravel-utilities/license)](https://packagist.org/packages/mahmud/laravel-utilities)
 [![composer.lock](https://poser.pugx.org/mahmud/laravel-utilities/composerlock)](https://packagist.org/packages/mahmud/laravel-utilities)
 
+## Version compatibility
+
+| Laravel | Laravel Utilities |
+|---------|-------------------|
+| 5.x     | 1.x               |
+| 6.x     | 1.x               |
+
 ## Installation
 
 Via Composer
 
 ``` bash
-$ composer require mahmud/laravel-utilities
+$ composer require mahmud/laravel-utilities ^1.2.0
 ```
 
 ## Usage
