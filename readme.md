@@ -4,6 +4,14 @@
 [![License](https://poser.pugx.org/mahmud/laravel-utilities/license)](https://packagist.org/packages/mahmud/laravel-utilities)
 [![composer.lock](https://poser.pugx.org/mahmud/laravel-utilities/composerlock)](https://packagist.org/packages/mahmud/laravel-utilities)
 
+## Version Compatibility
+
+| Laravel | Laravel Utilities |
+|---------|-------------------|
+| 5.x     | 1.x               |
+| 6.x     | 1.x               |
+| 7.x     | 2.x               |
+
 ## Installation
 
 Via Composer
